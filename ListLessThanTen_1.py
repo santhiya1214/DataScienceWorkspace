@@ -13,10 +13,11 @@
 # elements from the original list a that are smaller than that number given by the user.'''
 
 
-num = int(input("please enter the number to compare"))
+num = input("please enter the number to compare")
+print(type(num))
 list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 list1 = []
-## one line to check the for loop
+## one line to check the for loop3
 ## list1=[value for value in list if value <num]
 for value in list:
     if (value < num):
